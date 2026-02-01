@@ -18,6 +18,9 @@ version = "auto"
 exclusive-patches = false                                             
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
+patcher-args = """\
+  -Otheme=Amoled Black \
+  """
 
 [Music]
 arch = "arm64-v8a"
