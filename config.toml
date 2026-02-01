@@ -13,12 +13,12 @@ rv-brand = "RVX"
 [YouTube]
 build-mode = "module"
 arch = "arm64-v8a"
-patcher-args = " -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.sophiiss.exe' "
 version = "auto"                                                      
 exclusive-patches = false                                             
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
 patcher-args = """\
+  -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.sophiiss.exe'
   -Otheme=Amoled Black \
   """
 
