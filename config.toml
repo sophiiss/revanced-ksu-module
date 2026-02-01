@@ -19,8 +19,8 @@ included-patches = "'Theme'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx"
 patcher-args = """\
-  -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.sophiiss.exe'
-  -e Theme -OdarkThemeBackgroundColor='@android:color/black' \
+  -e 'GmsCore support' -OpackageNameYouTube='yt.rvx.sophiiss.exe' \
+  -e 'Theme' -OdarkThemeBackgroundColor='@android:color/black' \
   """
 
 [Music]
